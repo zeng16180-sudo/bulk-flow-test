@@ -1,0 +1,32 @@
+{
+  "snapshot_date": "2026-11-09",
+  "grain_us_weekly": [
+    {"commodity":"corn","label":"玉米","period":"2026-08-06","value_mt":1740119,"previous_period":"2026-07-30","previous_mt":1887984,"wow_pct":-7.8319,"prior_year_period":"2025-08-07","prior_year_mt":1522561,"yoy_pct":14.289,"publication_date":"2026-08-10","source":"USDA FGIS WA_GR101","source_url":"https://www.ams.usda.gov/mnreports/wa_gr101.txt","status":"actual_snapshot","notes":"官方報告列示的去年可比週；出口檢驗／秤重，不等於海關出口或裝船量。"},
+    {"commodity":"soybeans","label":"大豆","period":"2026-08-06","value_mt":399201,"previous_period":"2026-07-30","previous_mt":347246,"wow_pct":14.962,"prior_year_period":"2025-08-07","prior_year_mt":544344,"yoy_pct":-26.6638,"publication_date":"2026-08-10","source":"USDA FGIS WA_GR101","source_url":"https://www.ams.usda.gov/mnreports/wa_gr101.txt","status":"actual_snapshot","notes":"官方報告列示的去年可比週；出口檢驗／秤重，不等於海關出口或裝船量。"},
+    {"commodity":"wheat","label":"小麥","period":"2026-08-06","value_mt":421277,"previous_period":"2026-07-30","previous_mt":338754,"wow_pct":24.3607,"prior_year_period":"2025-08-07","prior_year_mt":414865,"yoy_pct":1.5456,"publication_date":"2026-08-10","source":"USDA FGIS WA_GR101","source_url":"https://www.ams.usda.gov/mnreports/wa_gr101.txt","status":"actual_snapshot","notes":"官方報告列示的去年可比週；出口檢驗／秤重，不等於海關出口或裝船量。"}
+  ],
+  "brazil_monthly": [],
+  "brazil_five_year": [],
+  "brazil_status": {
+    "status":"not_available",
+    "reason":"尚未取得可核實的月度海運出口明細。Comex Stat 原始年度 CSV 下載逾時；NCM 8 位碼、CO_VIA 海運代碼及目的地代碼尚未完成官方碼表核對。不能將所有出口量當作海運出口。",
+    "source":"MDIC Comex Stat open data",
+    "source_url":"https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta",
+    "last_data_month":"2026-10（Comex Stat 系統查詢頁公告資料截至該月；本專案未取得原始月量）",
+    "years":"尚無可驗證最新資料年度，故不選定五個年度"
+  },
+  "iron_ore": {
+    "brazil_exports": [],
+    "china_imports": [],
+    "australia_quantity_changes": [
+      {"commodity":"塊礦｜全球出口","period":"2026-09","mom_pct":7.5,"yoy_pct":7.4,"publication_date":"2026-11-05","unit":"%","source":"Australian Bureau of Statistics","source_url":"https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods/latest-release","notes":"數量變動率，不是出口噸數。"},
+      {"commodity":"粉礦｜全球出口","period":"2026-09","mom_pct":4.3,"yoy_pct":-0.9,"publication_date":"2026-11-05","unit":"%","source":"Australian Bureau of Statistics","source_url":"https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods/latest-release","notes":"數量變動率，不是出口噸數。"},
+      {"commodity":"塊礦｜對中國","period":"2026-09","mom_pct":9.5,"yoy_pct":null,"publication_date":"2026-11-05","unit":"%","source":"Australian Bureau of Statistics","source_url":"https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods/latest-release","notes":"對中國數量月增率；國別年增率未取得。"},
+      {"commodity":"粉礦｜對中國","period":"2026-09","mom_pct":5.0,"yoy_pct":null,"publication_date":"2026-11-05","unit":"%","source":"Australian Bureau of Statistics","source_url":"https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods/latest-release","notes":"對中國數量月增率；國別年增率未取得。"}
+    ],
+    "pig_iron": [
+      {"period":"2026-08","output_10k_tons":6765,"mom_pct":null,"yoy_pct":-3.5,"publication_date":"2026-09-17","source":"中國國家統計局","source_url":"https://www.stats.gov.cn/english/PressRelease/202609/t20260917_1965348.html"},
+      {"period":"2026-09","output_10k_tons":6534,"mom_pct":-3.4146,"yoy_pct":-1.4,"publication_date":"2026-10-20","source":"中國國家統計局","source_url":"https://www.stats.gov.cn/english/PressRelease/202610/t20261020_1965665.html"}
+    ]
+  }
+}

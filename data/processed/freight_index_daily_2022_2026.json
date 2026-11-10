@@ -1,0 +1,70 @@
+{
+  "snapshot_date": "2026-11-09",
+  "daily_history_years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "indexes": {
+    "BDI": {
+      "name": "波羅的海乾散貨綜合指數",
+      "unit": "指數點",
+      "administrator": "Baltic Exchange",
+      "retrieval_source": "BalticDryIndex.com（第三方自行記錄）",
+      "latest": {
+        "value": 2805,
+        "date": "2026-11-06",
+        "retrieved_at": "2026-11-09",
+        "source_url": "https://www.balticdryindex.com/",
+        "source_note": "第三方網站顯示 2026-11-06 BDI 2,805，並說明其自行記錄序列自 2026-05 開始；未取得 Baltic Exchange 授權原始日檔交叉核對。"
+      },
+      "yoy": null,
+      "daily": [],
+      "status": "latest_third_party_snapshot_only",
+      "history_note": "尚未取得 2022–2026 完整日度歷史；第三方自行記錄始於 2026-05，不能滿足五年度日度比較。"
+    },
+    "BCI": {
+      "name": "波羅的海海岬型指數",
+      "unit": "指數點",
+      "administrator": "Baltic Exchange",
+      "retrieval_source": "尚無可核實的歷史資料來源",
+      "latest": null,
+      "yoy": null,
+      "daily": [],
+      "status": "not_retrieved",
+      "history_note": "Baltic Exchange 歷史指數資料需有效訂閱或授權；目前未取得可核實的日度序列。"
+    },
+    "BPI": {
+      "name": "波羅的海巴拿馬型指數",
+      "unit": "指數點",
+      "administrator": "Baltic Exchange",
+      "retrieval_source": "尚無可核實的歷史資料來源",
+      "latest": null,
+      "yoy": null,
+      "daily": [],
+      "status": "not_retrieved",
+      "history_note": "Baltic Exchange 歷史指數資料需有效訂閱或授權；目前未取得可核實的日度序列。"
+    },
+    "BSI": {
+      "name": "波羅的海超靈便型指數",
+      "unit": "指數點",
+      "administrator": "Baltic Exchange",
+      "retrieval_source": "尚無可核實的歷史資料來源",
+      "latest": null,
+      "yoy": null,
+      "daily": [],
+      "status": "not_retrieved",
+      "history_note": "Baltic Exchange 歷史指數資料需有效訂閱或授權；目前未取得可核實的日度序列。"
+    }
+  },
+  "yoy_method": {
+    "preferred": "去年同日；若無該日觀測，向前尋找前一可用交易日。",
+    "max_offset_calendar_days": 7,
+    "max_gap_calendar_days": 7,
+    "rule": "優先去年同日；若當日無觀測，採不晚於去年同日的前一可用交易日，最多向前回溯 7 個日曆日。超過 7 日、跨越較長缺口或找不到基期時，YoY 顯示缺資料、不計算。",
+    "formula": "(本期指數點數 ÷ 去年基期指數點數 − 1) × 100%",
+    "status": "defined_not_calculated_without_daily_series"
+  }
+}
